@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* font-family: 'Outfit', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  color: hsl(215, 51%, 70%);
+}
+
+.main {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.main img {
+  display: block;
+  border-radius: 15px;
+}
+
+.eye {
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  padding: 126px;
+  display: none;
+}
+
+.main:hover .eye {
+  background-color: hsl(178, 100%, 50%, 50%);
+  cursor: pointer;
+  display: block;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.cst-time {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cst-time img {
+  transform: translate(0%, 10%);
+  padding-right: 5px;
+}
+
+.cst {
+  color: hsl(178, 100%, 50%);
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.creator img {
+  width: 30px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.creator a {
+  color: white;
+}
+
+.creator a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
