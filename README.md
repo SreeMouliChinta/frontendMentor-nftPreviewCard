@@ -1,5 +1,9 @@
 # Frontend Mentor - NFT preview card component
 
+Please check the below link to visit the LIVE PAGE of the Project:
+
+[GitHub Live Page - NFT preview card component - Sree Mouli Chinta](https://sreemoulichinta.github.io/frontendMentor-nftPreviewCard/)
+
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
